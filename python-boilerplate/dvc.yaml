@@ -1,0 +1,8 @@
+stages:
+  data_ingestion:
+    cmd: python src\python_boilerplate\data_ingestion.py
+    deps:
+      - src\python_boilerplate\data_ingestion.py
+      
+    outs:
+      data\tests
