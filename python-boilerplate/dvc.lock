@@ -1,0 +1,15 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src\python_boilerplate\data_ingestion.py
+    deps:
+    - path: src\python_boilerplate\data_ingestion.py
+      hash: md5
+      md5: ec8bc463cbf80d4af775f9cef427bacc
+      size: 1363
+    outs:
+    - path: data
+      hash: md5
+      md5: 297cd1f3c5edc7b16ba835ccb9fdba10.dir
+      size: 6919701
+      nfiles: 2

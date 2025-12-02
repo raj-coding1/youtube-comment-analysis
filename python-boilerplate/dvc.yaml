@@ -5,4 +5,5 @@ stages:
       - src\python_boilerplate\data_ingestion.py
       
     outs:
-      data\tests
+      - data
+      
